@@ -1,0 +1,58 @@
+/* General page styles */
+body {
+  background-color: #f8d7da;
+}
+
+/* Header Carousel - Smaller height with slight top reveal */
+.header-carousel {
+  height: 250px; /* Smaller header height */
+  background-size: cover;
+  background-position: top; /* Shows the top of the background image */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-carousel h1 {
+  font-size: 36px; /* Slightly smaller font size */
+  font-family: 'Amatic SC', cursive;
+}
+
+/* Button "Go Back Home" */
+.go-back-home {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #fbeaec;
+  color: #ff5500;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Adjust for shared footer styling */
+footer {
+  background-color: #fbeaec;
+  padding: 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+footer a {
+  color: #ff5500;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #ff5500;
+  background-color: #f1c522;
+  border-radius: 5px;
+}

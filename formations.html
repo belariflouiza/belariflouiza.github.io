@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation - Master Full Stack Development</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+        /* General page styles */
+        body {
+            background-color: #f8d7da;
+        }
+
+        /* Header Carousel - Smaller height with slight top reveal */
+        .header-carousel {
+            height: 250px; /* Reduced header height */
+            background-size: cover;
+            background-position: top; /* Shows the top of the background image */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .header-carousel h1 {
+            font-size: 36px; /* Slightly smaller font size */
+            font-family: 'Amatic SC', cursive;
+        }
+
+        /* Go Back Home Button */
+        .go-back-home {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: #fbeaec;
+            color: #ff5500;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .go-back-home i {
+            margin-right: 8px;
+        }
+
+        .content-section {
+            padding: 40px;
+        }
+
+        .content-section h2 {
+            color: #333;
+        }
+
+        .skills, .modules {
+            margin-top: 15px;
+        }
+
+        .skills span, .modules span {
+            background-color: #f1c522;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .table {
+            margin-top: 30px;
+            background: linear-gradient(135deg, #ffccd5, #ffb3ba);
+            border-radius: 10px;
+        }
+
+        .table th {
+            background-color: #ff5500;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #fbeaec;
+            padding: 20px 0;
+            color: #333;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff5500;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        footer a:hover {
+            color: #ff5500;
+            background-color: #f1c522;
+            border-radius: 5px;
+        }
+
+        footer i {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Go Back Home Button with Icon -->
+    <a href="index.html" class="go-back-home">
+        <i class="bi bi-house-door-fill"></i> Go Back Home
+    </a>
+
+    <!-- Header Section with Carousel -->
+    <div class="header-carousel" style="background-image: url('images/backg.jpg');">
+        <h1>Master in Full Stack Development</h1>
+    </div>
+
+    <!-- Main Content Section -->
+    <section class="content-section">
+        <h2>Program Overview</h2>
+        <p>
+            The Master's program in Full Stack Development trains professionals capable of mastering the entire application development chain. 
+            This includes back-end development using server technologies (PHP, JEE, .NET, NODEJS, REST, etc.) and front-end development, which deals with the user interface and experience (HTML, CSS, JS, UX, etc.).
+            Our graduates will be versatile, adapting to challenges presented by companies and evolving technologies. This versatility is crucial for integration into a diverse local job market with varying needs and technologies.
+        </p>
+        <a href="#" class="btn btn-link">See RNCP File</a>
+
+        <h3>Access Conditions</h3>
+        <ul>
+            <li><strong>M1:</strong> Holders of a bac +3 in computer science or an equivalent diploma.</li>
+            <li><strong>M2:</strong> Automatic for holders of the M1 DFS and based on application for other candidates.</li>
+        </ul>
+
+        <h3>Skills Acquired</h3>
+        <ul>
+            <li>Design and development of software tools: business applications, internet, and mobile.</li>
+            <li>Designing software applications:</li>
+            <li>Implementing agile analysis and design.</li>
+            <li>Writing specifications.</li>
+            <li>Modeling with UML.</li>
+            <li>Using project management tools.</li>
+            <li>Thinking and designing user interfaces.</li>
+            <li>Programming network, concurrent, parallel, and distributed business applications.</li>
+            <li>Using object-oriented languages (Java, C#, Python, etc.).</li>
+            <li>Implementing design patterns.</li>
+            <li>Optimizing code (refactoring).</li>
+            <li>Programming for the internet.</li>
+            <li>Front-end development (HTML, CSS, JavaScript, etc.).</li>
+            <li>Back-end development.</li>
+            <li>Mobile platforms (iOS, Android, etc.).</li>
+            <li>Web platforms: PHP, .Net, Java EE, etc.</li>
+            <li>Designing, configuring, and using databases: administration/querying/optimization.</li>
+            <li>Administering and securing networks.</li>
+            <li>Designing and developing connected object systems.</li>
+            <li>Embedded systems architecture.</li>
+            <li>Specific network protocols.</li>
+            <li>Programming on dedicated platforms (Arduino, etc.).</li>
+            <li>Modeling and simulating complex systems for decision support.</li>
+            <li>Implementing optimization methods for systems.</li>
+            <li>Securing a server and an application.</li>
+            <li>Deploying applications (DevOps).</li>
+        </ul>
+
+        <h3>National or Specific Expectations</h3>
+        <ul>
+            <li>Evaluate and master the complexity of software development related to an application domain.</li>
+            <li>Develop computer applications on various infrastructures (parallel machines, distributed environments, web programming…).</li>
+            <li>Respect ethical, deontological, and environmental responsibility principles.</li>
+        </ul>
+
+        <!-- Modules Table -->
+        <h3>Master Modules</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Master 1</th>
+                    <th>Master 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Application Development</td>
+                    <td>Distributed Applications and Web Microservices</td>
+                </tr>
+                <tr>
+                    <td>Artificial Intelligence & Big Data</td>
+                    <td>Operational Research</td>
+                </tr>
+                <tr>
+                    <td>Advanced Programming: Patterns and OOP</td>
+                    <td>Mobile Application Development</td>
+                </tr>
+                <tr>
+                    <td>System & Network Administration</td>
+                    <td>Quality Approach and Projects (99h)</td>
+                </tr>
+                <tr>
+                    <td>Tools and Project Management</td>
+                    <td>Language</td>
+                </tr>
+                <tr>
+                    <td>Advanced Web Applications & Web Services</td>
+                    <td>Internship (5 to 6 months)</td>
+                </tr>
+                <tr>
+                    <td>Internet of Things</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mobile Terminal Programming</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Parallel and Distributed Programming/DevOps</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Testing and Projects</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Louiza - M2 Student at Corsica University</p>
+        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.github.com" target="_blank"><i class="bi bi-github"></i></a>
+    </footer>
+
+    <!-- JavaScript - jQuery, Popper.js and Bootstrap from CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
