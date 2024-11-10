@@ -122,6 +122,36 @@
             height: 20px;
             margin-left: 10px;
         }
+        /* Country flag styling */
+
+        .country-flag {
+            width: 25px;
+            height: 25px;
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .country-flag:hover {
+            transform: scale(1.2);
+        }
+        .country-flag {
+        width: 110px; /* Larger flag to fill the heart shape */
+        height: auto;
+
+    }
+    .flag-icon {
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            border: none; /* Removes border around the flag */
+            background-color: transparent; /* Makes the background transparent */
+        }
+        .flag-icon:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+
     </style>
 </head>
 <body>
@@ -148,12 +178,12 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="header-carousel" style="background-image: url('images/backg.jpg');">
-                    <h1>Welcome to Our Team</h1>
+                    <h1>Master's team from the university of Corsica</h1>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="header-carousel" style="background-image: url('images/backg1.jpg');">
-                    <h1>Welcome to Our Team</h1>
+                    <h1>Master's team from the university of Corsica</h1>
                 </div>
             </div>
         </div>
@@ -175,23 +205,23 @@
                 <div class="col-lg-3 col-md-6 col-12 team-member">
                     <div class="image-hover-thumb">
                         <a href="description-louiza.html">
-                            <img src="images/Louiza.jpeg" class="img-fluid" alt="Louiza Belarif">
+                            <img src="images/Louiza.jpeg" alt="Louiza Belarif" class="img-fluid"  class="country-flag">
                         </a>
                     </div>
                     <h4>
                         <a href="description-louiza.html">Louiza BELARIF</a>
-                        <img src="images/dzflag.jpg" alt="Algeria Flag" class="flag-icon">
+                        <img src="images/dzflag.png" alt="Algeria Flag" class="flag-icon">
                     </h4>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 team-member">
                     <div class="image-hover-thumb">
                         <a href="description-member2.html">
-                            <img src="images/Ambroise.jpeg" class="img-fluid" alt="Member 2">
+                            <img src="images/Ambroise.jpeg" alt="Member 2" class="img-fluid"  class="country-flag">
                         </a>
                     </div>
                     <h4>
                         <a href="description-member2.html">Ambroise</a>
-                        <img src="images/togoflag.jpg" alt="Togo Flag" class="flag-icon">
+                        <img src="images/togoflag.png" alt="Togo Flag" class="flag-icon">
                     </h4>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 team-member">
