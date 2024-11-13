@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description - Antoine Marechal-Balle</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+        /* General page styles */
+        body {
+            background-color: #f8d7da;
+        }
+
+        /* Header carousel */
+        .header-carousel {
+            height: 300px;
+            background-image: url('images/backg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .header-carousel h1 {
+            font-size: 40px;
+            font-family: 'Amatic SC', cursive;
+        }
+
+        /* Go Back Home Button */
+        .go-back-home {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #fbeaec;
+            color: #ff5500;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .go-back-home i {
+            margin-right: 8px;
+        }
+
+        /* Description section layout */
+        .description-section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .description-image {
+            max-width: 300px;
+            flex: 1;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for image */
+        .description-image img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        /* Skills section below the image */
+        .skills {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .skills span {
+            background-color: #f1c522;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .skills span:hover {
+            background-color: #ff55aa;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .description-content {
+            flex: 2;
+            color: #555;
+        }
+
+        .description-content h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .description-content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .country-flag {
+            width: 25px;
+            height: 25px;
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .country-flag:hover {
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #fbeaec;
+            padding: 10px 0;
+            color: #333;
+            text-align: center;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        footer a:hover {
+            color: #ff5500;
+            background-color: #f1c522;
+            border-radius: 5px;
+        }
+
+        footer i {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Go Back Home Button with Icon -->
+    <a href="index.html" class="go-back-home">
+        <i class="bi bi-house-door-fill"></i> Go Back Home
+    </a>
+
+    <!-- Header Section -->
+    <div class="header-carousel">
+        <h1>Antoine MARECHAL-BALLE Description</h1>
+    </div>
+
+    <!-- Main Description Section -->
+    <section class="description-section">
+        <!-- Image Section -->
+        <div class="description-image">
+            <img src="images/antoine.png" alt="Antoine Marechal-Balle" class="img-fluid">
+            <!-- Skills below the image -->
+            <div class="skills">
+                <span>PHP</span>
+                <span>Java</span>
+                <span>Mobile Developer</span>
+                <span>System & Security</span>
+            </div>
+        </div>
+
+        <!-- Description content -->
+        <div class="description-content">
+            <h2>Antoine MARECHAL-BALLE</h2>
+            <p><strong>Name:</strong> MARECHAL-BALLE </p>
+            <p><strong>First Name:</strong> Antoine </p>
+            <p><strong>Date of Birth:</strong> 24 April 2003</p>
+            <p><strong>Place of Birth:</strong> Evreux, France</p>
+            <p><strong>Nationality:</strong> French
+                <img src="images/france.png" alt="France Flag" class="country-flag">
+            </p>
+
+            <h3>Strengths</h3>
+            <ul>
+                <li><strong>System, Security, and Data Center Management:</strong> Antoine works at the university, handling systems, security, and data center management. He is proficient in PHP, Java, and mobile development.</li>
+            </ul>
+
+            <h3>Weaknesses</h3>
+            <ul>
+                <li><strong>Frontend Development and Project Management:</strong> Actively improving skills in frontend development and project management.</li>
+            </ul>
+
+            <h3>Interests</h3>
+            <p>Enjoys playing video games.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Louiza BELARIF - M2 Student at Corsica University</p>
+        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.github.com" target="_blank"><i class="bi bi-github"></i></a>
+    </footer>
+
+    <!-- JavaScript - jQuery, Popper.js and Bootstrap from CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
